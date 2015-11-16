@@ -1,9 +1,8 @@
 <?php
-	function message($input)
-	{
-		echo 'Hello!!';
-		echo  $input;
-	}
+function message($input){
+	echo 'Hello!!';
+	echo  $input;
+}
 
 	// message();
 ?>
@@ -21,9 +20,9 @@
 
 
  		<?php
- 			$input = $_POST['moji'];
+ 			//$input = $_POST['moji'];
 
- 			message($input);
+ 			message($_POST['moji']);
  		?>
  	</body>
  </html>
